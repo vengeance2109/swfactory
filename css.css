@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Agency FB";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #004C70;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+li a:hover {
+    background-color: #111;
+}
