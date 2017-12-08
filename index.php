@@ -1,3 +1,7 @@
+<?php
+include "conn.php";
+?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,11 +12,10 @@
   </head>
   <body>
 <ul>
-  <li><a href="https://www.swfactory.be">Home</a></li>
+  <li><a href="home.php">Home</a></li>
   <li> <a href="about.php">About us</a> </li>
-  <li><a href="#">login</a></li>
+  <li style="float:right;"><a href="#">login</a></li>
 </ul>
-<h1>Agency FB</h1>
-<a href="http://www.hoehel.be">hoehel</a>
+
   </body>
 </html>
